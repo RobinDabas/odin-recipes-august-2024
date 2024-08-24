@@ -7,6 +7,6 @@ video {
   margin: auto;
 }
 
-h2, h3, ul {
+h2, h3, ul, ol {
   text-align: center;
 }
