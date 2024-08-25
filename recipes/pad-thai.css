@@ -10,3 +10,10 @@ video {
 h2, h3, ul, ol {
   text-align: center;
 }
+
+body {
+  background-image: url(marble.jpg);
+}
+.la-ciudad {
+  color: white;
+}
