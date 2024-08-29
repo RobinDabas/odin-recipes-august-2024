@@ -14,6 +14,43 @@ h2, h3, ul, ol {
 body {
   background-image: url(marble.jpg);
 }
-.la-ciudad {
-  color: white;
+
+.subseccion.titulo {
+  color: #04FFF7;
+  background-color: #F535AA;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subseccion#prevista {
+  color: #F535AA;
+  background-color: #04FFF7;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: "Poppins";
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  color: #F535AA;
+  text-align: center;
+  border: solid #F535AA 8px;
+}
+
+#box1 {
+  background-color: #04FFF7;
+}
+
+#box2 {
+  background-color: #04FFF7;
 }
