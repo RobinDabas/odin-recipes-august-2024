@@ -30,9 +30,10 @@ body {
   font-style: "Poppins";
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
+.flex-container {
+  display: flexbox;
+  border: solid #F535AA 8px;
+  align-items: center;
 }
 
 .box {
@@ -44,13 +45,16 @@ body {
   flex-wrap: wrap;
   color: #F535AA;
   text-align: center;
-  border: solid #F535AA 8px;
 }
 
 #box1 {
   background-color: #04FFF7;
+  border: solid #F535AA 8px;
+
 }
 
 #box2 {
   background-color: #04FFF7;
+  border: solid #F535AA 8px;
+
 }
